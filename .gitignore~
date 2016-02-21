@@ -1,0 +1,7 @@
+.idea
+.sass/
+bower_components/
+*.html
+Font-awesome/
+node_modules/
+
