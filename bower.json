@@ -1,0 +1,24 @@
+{
+  "name": "Nick Kushnir",
+  "description": "Php-theme",
+  "main": "index.php",
+  "authors": [
+    "Nimmerz <funeralfear@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Nimmerz/Php-theme",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "flexboxgrid": "^6.3.0",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
