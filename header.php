@@ -28,20 +28,20 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li><a href="#">Journal</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
-          </div>
-       </div>
-<!--             <?php wp_nav_menu (array(
+          </div> -->
+          <?php wp_nav_menu (array(
               'container' => 'div',
               'container_class' => 'collapse navbar-collapse',
               'container_id'    => 'bs-example-navbar-collapse-1',
               'menu_class' => 'nav navbar-nav',
-           )); ?>  -->
+           )); ?>  
+       </div> 
       </nav>
     </header>

@@ -23,7 +23,7 @@ echo "<p>No content found</p>";
 
 endif; ?>
 	</div>
-	<aside class="blog-second col-sm-6 col-md-3 col-lg-3 hidden-xs">
+	     <aside class="blog-second col-sm-6 col-md-3 col-lg-3 hidden-xs">
         <div class="categories">
           <h6>
             About Blogin.
