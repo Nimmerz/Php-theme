@@ -12,10 +12,10 @@ while (have_posts()) : the_post(); ?>
      ?>
       <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><?php the_post_thumbnail(full) ?></a>
     <?php endif ?>
+  <img alt="image-first" src="<?php echo get_template_directory_uri() ?>/Images/picture_1.png"/>
 	<div class="caption">
-	<h3><?php the_title() ?></h3> 
-
-<?php the_content(); ?>
+		<h3><?php the_title() ?></h3> 
+<?php the_excerpt(); ?>
   </div>    
 <?php endwhile; 
 
@@ -23,10 +23,9 @@ else :
 echo "<p>No content found</p>"; 
 
 endif; ?>
-</div>
-</div>
-  <?php get_template_part('sidebar'); ?>
-    </section>
+	</div>
+  <?php get_template_part('sidebar'); ?> 
+   </section>
 <?php get_footer(); 
 
 ?>

@@ -7,11 +7,6 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href="<?php bloginfo('template_directory'); ?>/stylesheets/normalize.css" rel="stylesheet" />
-    <link href="<?php bloginfo('template_directory'); ?>/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="<?php bloginfo('template_directory'); ?>/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="<?php bloginfo('template_directory'); ?>/bower_components/flexboxgrid/css/flexboxgrid.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?php bloginfo('template_directory'); ?>/stylesheets/screen.min.css" rel="stylesheet" />
   </head>
   <body <?php body_class(); ?>>
     <header class="up-head container-fluid">
